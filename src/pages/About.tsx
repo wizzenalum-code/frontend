@@ -72,12 +72,12 @@ const About: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-royal-blue-50 to-saffron-50 py-20">
+      <section className="bg-gradient-to-br from-electric-blue-50 to-vibrant-orange-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold font-display text-gray-800 mb-6">
-                About <span className="bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">Inventors Hub</span>
+                About <span className="bg-gradient-to-r from-electric-blue-600 to-vibrant-orange-600 bg-clip-text text-transparent">Inventors Hub</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
                 We're on a mission to transform education in India by inspiring the next generation of innovators, 
@@ -99,7 +99,7 @@ const About: React.FC = () => {
                 alt="Students collaborating on innovative projects" 
                 className="rounded-2xl shadow-2xl"
               />
-              <div className="absolute -bottom-4 -right-4 w-full h-full bg-gradient-to-br from-royal-blue-200 to-saffron-200 rounded-2xl opacity-20"></div>
+              <div className="absolute -bottom-4 -right-4 w-full h-full bg-gradient-to-br from-electric-blue-200 to-vibrant-orange-200 rounded-2xl opacity-20"></div>
             </div>
           </div>
         </div>
@@ -110,9 +110,9 @@ const About: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Mission */}
-            <div className="card bg-gradient-to-br from-royal-blue-50 to-royal-blue-100 border border-royal-blue-200">
+            <div className="card bg-gradient-to-br from-electric-blue-50 to-electric-blue-100 border border-electric-blue-200">
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-br from-royal-blue-500 to-royal-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                <div className="bg-gradient-to-br from-electric-blue-500 to-electric-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <Target className="h-6 w-6 text-white" />
                 </div>
                 <h2 className="text-2xl font-bold font-display text-gray-800">Our Mission</h2>
@@ -125,9 +125,9 @@ const About: React.FC = () => {
             </div>
 
             {/* Vision */}
-            <div className="card bg-gradient-to-br from-saffron-50 to-saffron-100 border border-saffron-200">
+            <div className="card bg-gradient-to-br from-vibrant-orange-50 to-vibrant-orange-100 border border-vibrant-orange-200">
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-br from-saffron-500 to-saffron-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                <div className="bg-gradient-to-br from-vibrant-orange-500 to-vibrant-orange-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <Eye className="h-6 w-6 text-white" />
                 </div>
                 <h2 className="text-2xl font-bold font-display text-gray-800">Our Vision</h2>
@@ -158,7 +158,7 @@ const About: React.FC = () => {
             {achievements.map((achievement, index) => (
               <div key={index} className="text-center">
                 <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
-                  <div className="text-3xl md:text-4xl font-bold font-display bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent mb-2">
+                  <div className="text-3xl md:text-4xl font-bold font-display bg-gradient-to-r from-electric-blue-600 to-vibrant-orange-600 bg-clip-text text-transparent mb-2">
                     {achievement.number}
                   </div>
                   <div className="text-gray-600 font-medium">{achievement.label}</div>
@@ -192,14 +192,14 @@ const About: React.FC = () => {
                   />
                 </div>
                 <h3 className="text-xl font-bold font-display text-gray-800 mb-2">{member.name}</h3>
-                <p className="text-royal-blue-600 font-medium mb-4">{member.role}</p>
+                <p className="text-electric-blue-600 font-medium mb-4">{member.role}</p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">{member.bio}</p>
                 
                 <div className="space-y-2 mb-6">
                   <h4 className="text-sm font-semibold text-gray-800">Expertise:</h4>
                   <div className="flex flex-wrap gap-2 justify-center">
                     {member.expertise.map((skill, skillIndex) => (
-                      <span key={skillIndex} className="bg-royal-blue-100 text-royal-blue-800 text-xs px-3 py-1 rounded-full">
+                      <span key={skillIndex} className="bg-electric-blue-100 text-electric-blue-800 text-xs px-3 py-1 rounded-full">
                         {skill}
                       </span>
                     ))}
@@ -207,10 +207,10 @@ const About: React.FC = () => {
                 </div>
                 
                 <div className="flex justify-center space-x-3">
-                  <a href="#" className="text-gray-400 hover:text-royal-blue-600 transition-colors">
+                  <a href="#" className="text-gray-400 hover:text-electric-blue-600 transition-colors">
                     <Mail className="h-5 w-5" />
                   </a>
-                  <a href="#" className="text-gray-400 hover:text-royal-blue-600 transition-colors">
+                  <a href="#" className="text-gray-400 hover:text-electric-blue-600 transition-colors">
                     <Linkedin className="h-5 w-5" />
                   </a>
                 </div>
@@ -236,8 +236,8 @@ const About: React.FC = () => {
             {values.map((value, index) => (
               <div key={index} className="card bg-white hover:bg-gradient-to-br hover:from-gray-50 hover:to-gray-100 transition-all duration-300">
                 <div className="flex items-start">
-                  <div className="bg-gradient-to-br from-royal-blue-100 to-saffron-100 w-12 h-12 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <value.icon className="h-6 w-6 text-royal-blue-600" />
+                  <div className="bg-gradient-to-br from-electric-blue-100 to-vibrant-orange-100 w-12 h-12 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                    <value.icon className="h-6 w-6 text-electric-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold font-display text-gray-800 mb-3">{value.title}</h3>
@@ -290,21 +290,21 @@ const About: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-royal-blue-600 to-saffron-600">
+      <section className="py-20 bg-gradient-to-br from-electric-blue-600 to-vibrant-orange-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold font-display text-white mb-6">
             Join Our Mission
           </h2>
-          <p className="text-xl text-royal-blue-100 mb-8 leading-relaxed">
+          <p className="text-xl text-electric-blue-100 mb-8 leading-relaxed">
             Whether you're an educator, parent, or institution, there are many ways to be part of the 
             hands-on learning revolution. Let's work together to inspire the next generation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="bg-white text-royal-blue-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+            <Link to="/contact" className="bg-white text-electric-blue-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
               Get Involved
               <ArrowRight className="ml-2 h-5 w-5 inline" />
             </Link>
-            <Link to="/services" className="border-2 border-white text-white hover:bg-white hover:text-royal-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
+            <Link to="/services" className="border-2 border-white text-white hover:bg-white hover:text-electric-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
               Explore Our Programs
             </Link>
           </div>
