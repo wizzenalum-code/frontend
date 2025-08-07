@@ -160,9 +160,9 @@ const Home: React.FC = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Classes for Students */}
-            <div className="card group hover:bg-gradient-to-br hover:from-royal-blue-50 hover:to-royal-blue-100 transition-all duration-300">
+            <div className="card group hover:bg-gradient-to-br hover:from-electric-blue-50 hover:to-cyber-purple-100 transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-br from-royal-blue-500 to-royal-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                <div className="bg-gradient-to-br from-electric-blue-400 to-cyber-purple-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <GraduationCap className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold font-display text-gray-800">Classes for Students</h3>
@@ -193,9 +193,9 @@ const Home: React.FC = () => {
             </div>
 
             {/* Labs for Schools */}
-            <div className="card group hover:bg-gradient-to-br hover:from-saffron-50 hover:to-saffron-100 transition-all duration-300">
+            <div className="card group hover:bg-gradient-to-br hover:from-vibrant-orange-50 hover:to-hot-pink-100 transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-br from-saffron-500 to-saffron-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                <div className="bg-gradient-to-br from-vibrant-orange-400 to-hot-pink-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <Users className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold font-display text-gray-800">Labs for Schools</h3>
@@ -272,7 +272,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-royal-blue-600 to-saffron-600 pattern-grid">
+      <section className="py-20 bg-gradient-to-br from-electric-blue-400 via-cyber-purple-500 via-hot-pink-500 to-atomic-green-500 pattern-grid">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold font-display text-white mb-6">
             Ready to Inspire the Next Generation?
