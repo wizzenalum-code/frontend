@@ -26,9 +26,9 @@ const Header: React.FC = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold font-display bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">
-                Inventors Hub
+                STEAM Buds
               </h1>
-              <p className="text-xs text-gray-600 hidden sm:block">Inspiring Innovation</p>
+              <p className="text-xs text-gray-600 hidden sm:block">Science • Tech • Engineering • Art • Medicine</p>
             </div>
           </Link>
 
