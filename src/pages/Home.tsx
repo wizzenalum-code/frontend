@@ -174,15 +174,15 @@ const Home: React.FC = () => {
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-royal-blue-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
                   Age groups: 8-12, 13-15, 16-18 years
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-royal-blue-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
                   Weekend and holiday batches available
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-royal-blue-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
                   Project-based learning approach
                 </div>
               </div>
@@ -207,15 +207,15 @@ const Home: React.FC = () => {
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-saffron-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
                   Complete lab infrastructure setup
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-saffron-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
                   Comprehensive teacher training programs
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-saffron-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
                   Curriculum design and implementation
                 </div>
               </div>
@@ -256,11 +256,11 @@ const Home: React.FC = () => {
                 </div>
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-saffron-400 fill-current" />
+                    <Star key={i} className="h-4 w-4 text-neon-yellow-400 fill-current" />
                   ))}
                 </div>
                 <div className="relative">
-                  <Quote className="h-8 w-8 text-royal-blue-200 absolute -top-2 -left-2" />
+                  <Quote className="h-8 w-8 text-electric-blue-200 absolute -top-2 -left-2" />
                   <p className="text-gray-600 italic leading-relaxed pl-6">
                     {testimonial.content}
                   </p>
@@ -277,16 +277,16 @@ const Home: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold font-display text-white mb-6">
             Ready to Inspire the Next Generation?
           </h2>
-          <p className="text-xl text-royal-blue-100 mb-8 leading-relaxed">
+          <p className="text-xl text-electric-blue-100 mb-8 leading-relaxed">
             Join thousands of students and hundreds of schools who are already building the future. 
             Start your innovation journey today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="bg-white text-royal-blue-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+            <Link to="/contact" className="bg-white text-electric-blue-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
               Contact Us Today
               <ArrowRight className="ml-2 h-5 w-5 inline" />
             </Link>
-            <Link to="/services" className="border-2 border-white text-white hover:bg-white hover:text-royal-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
+            <Link to="/services" className="border-2 border-white text-white hover:bg-white hover:text-electric-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
               Explore Our Programs
             </Link>
           </div>
