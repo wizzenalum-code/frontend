@@ -13,22 +13,22 @@ const Footer: React.FC = () => {
               <div className="bg-gradient-to-br from-royal-blue-500 to-saffron-500 p-2 rounded-lg">
                 <Lightbulb className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold font-display">Inventors Hub</h3>
+              <h3 className="text-xl font-bold font-display">STEAM Buds</h3>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Inspiring the next generation of Indian innovators through hands-on learning and practical education.
+Inspiring the next generation through integrated STEAM education - combining Science, Technology, Engineering, Art, and Medicine in hands-on learning experiences.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-saffron-400 transition-colors">
+              <a href="#" className="text-gray-300 hover:text-neon-yellow-400 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-saffron-400 transition-colors">
+              <a href="#" className="text-gray-300 hover:text-neon-yellow-400 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-saffron-400 transition-colors">
+              <a href="#" className="text-gray-300 hover:text-neon-yellow-400 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-saffron-400 transition-colors">
+              <a href="#" className="text-gray-300 hover:text-neon-yellow-400 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -39,22 +39,22 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold font-display mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-saffron-400 transition-colors text-sm">
+                <Link to="/" className="text-gray-300 hover:text-neon-yellow-400 transition-colors text-sm">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-saffron-400 transition-colors text-sm">
+                <Link to="/services" className="text-gray-300 hover:text-neon-yellow-400 transition-colors text-sm">
                   Our Services
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-saffron-400 transition-colors text-sm">
+                <Link to="/about" className="text-gray-300 hover:text-neon-yellow-400 transition-colors text-sm">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-saffron-400 transition-colors text-sm">
+                <Link to="/contact" className="text-gray-300 hover:text-neon-yellow-400 transition-colors text-sm">
                   Contact
                 </Link>
               </li>
@@ -77,15 +77,15 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold font-display mb-4">Contact Info</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Mail className="h-4 w-4 text-saffron-400" />
-                <span className="text-gray-300 text-sm">hello@inventorshub.in</span>
+                <Mail className="h-4 w-4 text-neon-yellow-400" />
+                <span className="text-gray-300 text-sm">hello@steambuds.in</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-4 w-4 text-saffron-400" />
+                <Phone className="h-4 w-4 text-neon-yellow-400" />
                 <span className="text-gray-300 text-sm">+91 98765 43210</span>
               </div>
               <div className="flex items-start space-x-3">
-                <MapPin className="h-4 w-4 text-saffron-400 mt-0.5" />
+                <MapPin className="h-4 w-4 text-neon-yellow-400 mt-0.5" />
                 <span className="text-gray-300 text-sm">
                   123 Innovation Street<br />
                   Tech City, Bangalore, KA 560001
@@ -98,13 +98,13 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Inventors Hub. All rights reserved.
+              © 2024 STEAM Buds. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-saffron-400 text-sm transition-colors">
+              <a href="#" className="text-gray-400 hover:text-neon-yellow-400 text-sm transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-saffron-400 text-sm transition-colors">
+              <a href="#" className="text-gray-400 hover:text-neon-yellow-400 text-sm transition-colors">
                 Terms of Service
               </a>
             </div>

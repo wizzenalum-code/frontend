@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "hello@inventorshub.in",
+      details: "hello@steambuds.in",
       subtitle: "We'll respond within 24 hours"
     },
     {
@@ -89,10 +89,10 @@ const Contact: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-royal-blue-50 to-saffron-50 py-20">
+      <section className="bg-gradient-to-br from-electric-blue-50 to-vibrant-orange-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold font-display text-gray-800 mb-6">
-            Get in <span className="bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">Touch</span>
+            Get in <span className="bg-gradient-to-r from-electric-blue-600 to-vibrant-orange-600 bg-clip-text text-transparent">Touch</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Ready to start your innovation journey? We'd love to hear from you. 
@@ -113,8 +113,8 @@ const Contact: React.FC = () => {
                 
                 {isSubmitted ? (
                   <div className="text-center py-12">
-                    <div className="bg-emerald-india-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <CheckCircle className="h-10 w-10 text-emerald-india-600" />
+                    <div className="bg-lime-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <CheckCircle className="h-10 w-10 text-lime-green-600" />
                     </div>
                     <h3 className="text-xl font-semibold text-gray-800 mb-2">Message Sent Successfully!</h3>
                     <p className="text-gray-600">Thank you for reaching out. We'll get back to you within 24 hours.</p>
@@ -130,7 +130,7 @@ const Contact: React.FC = () => {
                         name="inquiryType"
                         value={formData.inquiryType}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-royal-blue-500 focus:border-transparent transition-colors"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors"
                         required
                       >
                         {inquiryTypes.map((type) => (
@@ -154,7 +154,7 @@ const Contact: React.FC = () => {
                           value={formData.name}
                           onChange={handleInputChange}
                           placeholder="Your full name"
-                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-royal-blue-500 focus:border-transparent transition-colors"
+                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors"
                           required
                         />
                       </div>
@@ -169,7 +169,7 @@ const Contact: React.FC = () => {
                           value={formData.email}
                           onChange={handleInputChange}
                           placeholder="your.email@example.com"
-                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-royal-blue-500 focus:border-transparent transition-colors"
+                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors"
                           required
                         />
                       </div>
@@ -186,7 +186,7 @@ const Contact: React.FC = () => {
                         value={formData.subject}
                         onChange={handleInputChange}
                         placeholder="Brief subject of your inquiry"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-royal-blue-500 focus:border-transparent transition-colors"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors"
                         required
                       />
                     </div>
@@ -203,7 +203,7 @@ const Contact: React.FC = () => {
                         onChange={handleInputChange}
                         rows={6}
                         placeholder="Tell us more about your requirements, questions, or how we can help..."
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-royal-blue-500 focus:border-transparent transition-colors resize-none"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors resize-none"
                         required
                       />
                     </div>
@@ -223,12 +223,12 @@ const Contact: React.FC = () => {
 
             {/* Contact Information */}
             <div className="space-y-6">
-              <div className="card bg-gradient-to-br from-royal-blue-50 to-saffron-50">
+              <div className="card bg-gradient-to-br from-electric-blue-50 to-vibrant-orange-50">
                 <h3 className="text-xl font-bold font-display text-gray-800 mb-6">Contact Information</h3>
                 <div className="space-y-6">
                   {contactInfo.map((info, index) => (
                     <div key={index} className="flex items-start">
-                      <div className="bg-gradient-to-br from-royal-blue-500 to-saffron-500 w-10 h-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                      <div className="bg-gradient-to-br from-electric-blue-500 to-vibrant-orange-500 w-10 h-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                         <info.icon className="h-5 w-5 text-white" />
                       </div>
                       <div>
@@ -246,27 +246,27 @@ const Contact: React.FC = () => {
                 <h3 className="text-xl font-bold font-display text-gray-800 mb-6">Quick Actions</h3>
                 <div className="space-y-4">
                   <a 
-                    href="mailto:hello@inventorshub.in?subject=Student Classes Inquiry"
-                    className="flex items-center p-4 bg-royal-blue-50 hover:bg-royal-blue-100 rounded-lg transition-colors group"
+                    href="mailto:hello@steambuds.in?subject=Student Classes Inquiry"
+                    className="flex items-center p-4 bg-electric-blue-50 hover:bg-electric-blue-100 rounded-lg transition-colors group"
                   >
-                    <div className="bg-royal-blue-500 w-10 h-10 rounded-lg flex items-center justify-center mr-3">
+                    <div className="bg-electric-blue-500 w-10 h-10 rounded-lg flex items-center justify-center mr-3">
                       <GraduationCap className="h-5 w-5 text-white" />
                     </div>
                     <div>
-                      <div className="font-medium text-gray-800 group-hover:text-royal-blue-600">Student Classes</div>
+                      <div className="font-medium text-gray-800 group-hover:text-electric-blue-600">Student Classes</div>
                       <div className="text-sm text-gray-600">Enroll your child</div>
                     </div>
                   </a>
                   
                   <a 
-                    href="mailto:hello@inventorshub.in?subject=School Partnership Inquiry"
-                    className="flex items-center p-4 bg-saffron-50 hover:bg-saffron-100 rounded-lg transition-colors group"
+                    href="mailto:hello@steambuds.in?subject=School Partnership Inquiry"
+                    className="flex items-center p-4 bg-vibrant-orange-50 hover:bg-vibrant-orange-100 rounded-lg transition-colors group"
                   >
-                    <div className="bg-saffron-500 w-10 h-10 rounded-lg flex items-center justify-center mr-3">
+                    <div className="bg-vibrant-orange-500 w-10 h-10 rounded-lg flex items-center justify-center mr-3">
                       <Building2 className="h-5 w-5 text-white" />
                     </div>
                     <div>
-                      <div className="font-medium text-gray-800 group-hover:text-saffron-600">School Partnership</div>
+                      <div className="font-medium text-gray-800 group-hover:text-vibrant-orange-600">School Partnership</div>
                       <div className="text-sm text-gray-600">Setup innovation labs</div>
                     </div>
                   </a>
@@ -302,24 +302,24 @@ const Contact: React.FC = () => {
           {/* Location Details */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
-              <div className="bg-royal-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MapPin className="h-8 w-8 text-royal-blue-600" />
+              <div className="bg-electric-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <MapPin className="h-8 w-8 text-electric-blue-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Easy to Find</h3>
               <p className="text-gray-600 text-sm">Located near major tech parks and easily accessible by metro</p>
             </div>
             
             <div className="text-center">
-              <div className="bg-saffron-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="h-8 w-8 text-saffron-600" />
+              <div className="bg-vibrant-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="h-8 w-8 text-vibrant-orange-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Flexible Hours</h3>
               <p className="text-gray-600 text-sm">Open Monday-Saturday, 9 AM - 6 PM for visits and consultations</p>
             </div>
             
             <div className="text-center">
-              <div className="bg-emerald-india-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Building2 className="h-8 w-8 text-emerald-india-600" />
+              <div className="bg-lime-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Building2 className="h-8 w-8 text-lime-green-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Modern Facility</h3>
               <p className="text-gray-600 text-sm">3000 sq ft innovation lab with the latest equipment and tools</p>

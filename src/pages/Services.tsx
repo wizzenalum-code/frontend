@@ -19,35 +19,35 @@ import {
 const Services: React.FC = () => {
   const studentClasses = [
     {
-      title: "Young Engineers (Ages 8-12)",
-      description: "Introduction to basic engineering concepts through fun, hands-on activities",
+      title: "STEAM Explorers (Ages 8-12)",
+      description: "Introduction to integrated STEAM concepts through fun, hands-on activities",
       duration: "2 hours/week",
-      features: ["Basic robotics", "Simple circuits", "3D design", "Creative problem solving"]
+      features: ["Basic robotics", "Art & design", "Simple circuits", "Science experiments"]
     },
     {
-      title: "Tech Innovators (Ages 13-15)",
-      description: "Advanced projects combining engineering, coding, and design thinking",
-      duration: "3 hours/week", 
-      features: ["Arduino programming", "Sensor integration", "App development", "Team projects"]
+      title: "STEAM Innovators (Ages 13-15)",
+      description: "Advanced interdisciplinary projects combining science, technology, art, and medicine",
+      duration: "3 hours/week",
+      features: ["Arduino programming", "Digital art", "Biomedical projects", "Team challenges"]
     },
     {
-      title: "Future Engineers (Ages 16-18)",
-      description: "Professional-level projects preparing students for engineering careers",
+      title: "STEAM Leaders (Ages 16-18)",
+      description: "Professional-level interdisciplinary projects preparing students for STEAM careers",
       duration: "4 hours/week",
-      features: ["Advanced robotics", "IoT projects", "AI/ML basics", "Industry mentorship"]
+      features: ["Advanced robotics", "Medical technology", "AI/ML applications", "Research projects"]
     }
   ];
 
   const schoolServices = [
     {
       icon: Building2,
-      title: "Lab Infrastructure Setup",
-      description: "Complete setup of innovation labs with cutting-edge equipment and safety protocols"
+      title: "STEAM Lab Infrastructure Setup",
+      description: "Complete setup of interdisciplinary STEAM labs with cutting-edge equipment for science, technology, engineering, art, and medicine"
     },
     {
       icon: BookOpen,
-      title: "Curriculum Development",
-      description: "Custom curriculum design aligned with educational standards and practical learning outcomes"
+      title: "STEAM Curriculum Development",
+      description: "Custom interdisciplinary curriculum design that integrates science, technology, engineering, art, and medicine with practical learning outcomes"
     },
     {
       icon: UserCheck,
@@ -64,13 +64,13 @@ const Services: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-royal-blue-50 to-saffron-50 py-20">
+      <section className="bg-gradient-to-br from-electric-blue-50 via-cyber-purple-50 to-hot-pink-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold font-display text-gray-800 mb-6">
-            Our <span className="bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">Services</span>
+            Our <span className="gradient-text">Services</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Comprehensive hands-on learning solutions for students and educational institutions across India
+            Comprehensive integrated STEAM learning solutions for students and educational institutions across India
           </p>
         </div>
       </section>
@@ -83,27 +83,27 @@ const Services: React.FC = () => {
             {/* Classes for Students */}
             <div>
               <div className="flex items-center mb-8">
-                <div className="bg-gradient-to-br from-royal-blue-500 to-royal-blue-600 w-16 h-16 rounded-xl flex items-center justify-center mr-4">
+                <div className="bg-gradient-to-br from-electric-blue-500 to-electric-blue-600 w-16 h-16 rounded-xl flex items-center justify-center mr-4">
                   <GraduationCap className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold font-display text-gray-800">Hands-on Classes for Young Engineers</h2>
-                  <p className="text-royal-blue-600 font-medium">Inspiring the next generation of innovators</p>
+                  <h2 className="text-3xl font-bold font-display text-gray-800">Integrated STEAM Classes for Young Minds</h2>
+                  <p className="text-electric-blue-600 font-medium">Inspiring the next generation of STEAM leaders</p>
                 </div>
               </div>
               
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Our age-appropriate classes are designed to nurture curiosity, develop technical skills, and build confidence 
-                in young minds. Through project-based learning, students explore robotics, electronics, coding, and design thinking 
+                Our age-appropriate classes are designed to nurture curiosity, develop interdisciplinary skills, and build confidence
+                in young minds. Through project-based learning, students explore the connections between Science, Technology, Engineering, Art, and Medicine
                 in a supportive and engaging environment.
               </p>
 
               <div className="space-y-6 mb-8">
                 {studentClasses.map((classInfo, index) => (
-                  <div key={index} className="card border border-royal-blue-100 hover:border-royal-blue-300 transition-colors">
+                  <div key={index} className="card border border-electric-blue-100 hover:border-electric-blue-300 transition-colors">
                     <div className="flex justify-between items-start mb-4">
                       <h3 className="text-xl font-semibold font-display text-gray-800">{classInfo.title}</h3>
-                      <div className="flex items-center text-sm text-royal-blue-600 bg-royal-blue-50 px-3 py-1 rounded-full">
+                      <div className="flex items-center text-sm text-electric-blue-600 bg-electric-blue-50 px-3 py-1 rounded-full">
                         <Clock className="h-4 w-4 mr-1" />
                         {classInfo.duration}
                       </div>
@@ -112,7 +112,7 @@ const Services: React.FC = () => {
                     <div className="grid grid-cols-2 gap-2">
                       {classInfo.features.map((feature, featureIndex) => (
                         <div key={featureIndex} className="flex items-center text-sm text-gray-700">
-                          <CheckCircle className="h-4 w-4 text-emerald-india-500 mr-2" />
+                          <CheckCircle className="h-4 w-4 text-lime-green-500 mr-2" />
                           {feature}
                         </div>
                       ))}
@@ -123,15 +123,15 @@ const Services: React.FC = () => {
 
               <div className="space-y-4">
                 <div className="flex items-center text-sm text-gray-700">
-                  <Calendar className="h-5 w-5 text-royal-blue-500 mr-3" />
+                  <Calendar className="h-5 w-5 text-electric-blue-500 mr-3" />
                   <span>Weekend and holiday batches available</span>
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <Award className="h-5 w-5 text-saffron-500 mr-3" />
+                  <Award className="h-5 w-5 text-vibrant-orange-500 mr-3" />
                   <span>Certificates awarded upon completion</span>
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <Users className="h-5 w-5 text-emerald-india-500 mr-3" />
+                  <Users className="h-5 w-5 text-lime-green-500 mr-3" />
                   <span>Small batch sizes for personalized attention</span>
                 </div>
               </div>
@@ -147,27 +147,27 @@ const Services: React.FC = () => {
             {/* Labs for Schools */}
             <div>
               <div className="flex items-center mb-8">
-                <div className="bg-gradient-to-br from-saffron-500 to-saffron-600 w-16 h-16 rounded-xl flex items-center justify-center mr-4">
+                <div className="bg-gradient-to-br from-vibrant-orange-500 to-vibrant-orange-600 w-16 h-16 rounded-xl flex items-center justify-center mr-4">
                   <Building2 className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold font-display text-gray-800">Inspiring Innovation in Every School</h2>
-                  <p className="text-saffron-600 font-medium">Complete lab solutions for educational institutions</p>
+                  <h2 className="text-3xl font-bold font-display text-gray-800">Inspiring STEAM Education in Every School</h2>
+                  <p className="text-vibrant-orange-600 font-medium">Complete integrated STEAM lab solutions for educational institutions</p>
                 </div>
               </div>
               
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                We partner with schools to establish world-class innovation labs that transform traditional education. 
-                Our comprehensive approach includes infrastructure setup, curriculum development, teacher training, 
-                and ongoing support to ensure sustainable impact.
+                We partner with schools to establish world-class STEAM labs that transform traditional education through interdisciplinary learning.
+                Our comprehensive approach includes infrastructure setup, integrated curriculum development, teacher training,
+                and ongoing support to ensure sustainable STEAM education impact.
               </p>
 
               <div className="space-y-6 mb-8">
                 {schoolServices.map((service, index) => (
-                  <div key={index} className="card border border-saffron-100 hover:border-saffron-300 transition-colors">
+                  <div key={index} className="card border border-vibrant-orange-100 hover:border-vibrant-orange-300 transition-colors">
                     <div className="flex items-start">
-                      <div className="bg-gradient-to-br from-saffron-100 to-saffron-200 w-12 h-12 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <service.icon className="h-6 w-6 text-saffron-600" />
+                      <div className="bg-gradient-to-br from-vibrant-orange-100 to-vibrant-orange-200 w-12 h-12 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                        <service.icon className="h-6 w-6 text-vibrant-orange-600" />
                       </div>
                       <div>
                         <h3 className="text-xl font-semibold font-display text-gray-800 mb-2">{service.title}</h3>
@@ -178,31 +178,31 @@ const Services: React.FC = () => {
                 ))}
               </div>
 
-              <div className="bg-gradient-to-br from-saffron-50 to-saffron-100 rounded-xl p-6 mb-8">
+              <div className="bg-gradient-to-br from-vibrant-orange-50 to-vibrant-orange-100 rounded-xl p-6 mb-8">
                 <h3 className="text-lg font-semibold font-display text-gray-800 mb-4">What's Included in Our School Partnership:</h3>
                 <div className="space-y-3">
                   <div className="flex items-center text-sm text-gray-700">
-                    <CheckCircle className="h-4 w-4 text-saffron-500 mr-3" />
+                    <CheckCircle className="h-4 w-4 text-vibrant-orange-500 mr-3" />
                     Complete lab setup with equipment and furniture
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
-                    <CheckCircle className="h-4 w-4 text-saffron-500 mr-3" />
+                    <CheckCircle className="h-4 w-4 text-vibrant-orange-500 mr-3" />
                     Age-appropriate curriculum for grades 6-12
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
-                    <CheckCircle className="h-4 w-4 text-saffron-500 mr-3" />
+                    <CheckCircle className="h-4 w-4 text-vibrant-orange-500 mr-3" />
                     40+ hours of teacher training workshops
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
-                    <CheckCircle className="h-4 w-4 text-saffron-500 mr-3" />
+                    <CheckCircle className="h-4 w-4 text-vibrant-orange-500 mr-3" />
                     Project kits and learning materials
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
-                    <CheckCircle className="h-4 w-4 text-saffron-500 mr-3" />
+                    <CheckCircle className="h-4 w-4 text-vibrant-orange-500 mr-3" />
                     Quarterly curriculum updates and support
                   </div>
                   <div className="flex items-center text-sm text-gray-700">
-                    <CheckCircle className="h-4 w-4 text-saffron-500 mr-3" />
+                    <CheckCircle className="h-4 w-4 text-vibrant-orange-500 mr-3" />
                     Student assessment and progress tracking tools
                   </div>
                 </div>
@@ -224,16 +224,16 @@ const Services: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold font-display text-gray-800 mb-4">
-              Technology Focus Areas
+              STEAM Focus Areas
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our programs cover cutting-edge technologies that prepare students for the future
+              Our programs integrate Science, Technology, Engineering, Art, and Medicine to prepare students for the future
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-royal-blue-500 to-royal-blue-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-electric-blue-500 to-electric-blue-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <Cpu className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">Robotics & Automation</h3>
@@ -241,7 +241,7 @@ const Services: React.FC = () => {
             </div>
             
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-saffron-500 to-saffron-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-vibrant-orange-500 to-vibrant-orange-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <Zap className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">Electronics & IoT</h3>
@@ -249,40 +249,40 @@ const Services: React.FC = () => {
             </div>
             
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-emerald-india-500 to-emerald-india-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-lime-green-500 to-lime-green-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <BookOpen className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">Programming & AI</h3>
-              <p className="text-sm text-gray-600">Python, JavaScript, machine learning, and app development</p>
+              <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">Digital Art & Programming</h3>
+              <p className="text-sm text-gray-600">Creative coding, digital design, AI applications, and interactive media</p>
             </div>
             
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-terracotta-500 to-terracotta-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-hot-pink-500 to-hot-pink-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <Cog className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">3D Design & Printing</h3>
-              <p className="text-sm text-gray-600">CAD modeling, 3D printing, and digital fabrication</p>
+              <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">Biomedical Innovation</h3>
+              <p className="text-sm text-gray-600">Medical device design, biotechnology, health tech, and life sciences</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-royal-blue-600 to-saffron-600">
+      <section className="py-20 bg-gradient-to-br from-electric-blue-600 via-cyber-purple-600 to-hot-pink-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold font-display text-white mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-royal-blue-100 mb-8 leading-relaxed">
+          <p className="text-xl text-electric-blue-100 mb-8 leading-relaxed">
             Whether you're a parent looking to inspire your child or an educator wanting to transform your school, 
             we're here to help you build the future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="bg-white text-royal-blue-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+            <Link to="/contact" className="bg-white text-electric-blue-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
               Contact Us Today
               <ArrowRight className="ml-2 h-5 w-5 inline" />
             </Link>
-            <Link to="/about" className="border-2 border-white text-white hover:bg-white hover:text-royal-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
+            <Link to="/about" className="border-2 border-white text-white hover:bg-white hover:text-electric-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
               Learn About Us
             </Link>
           </div>

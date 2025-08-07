@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       name: "Priya Sharma",
       role: "Parent",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b1e1?w=150&h=150&fit=crop&crop=face",
-      content: "My child's confidence in science has soared! The hands-on approach at Inventors Hub has transformed how she thinks about problem-solving.",
+      content: "My child's confidence in STEAM subjects has soared! The integrated approach at STEAM Buds has transformed how she thinks about problem-solving across disciplines.",
       rating: 5
     },
     {
@@ -43,22 +43,21 @@ const Home: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-royal-blue-50 to-saffron-50 pattern-dots overflow-hidden">
+      <section className="relative bg-gradient-to-br from-electric-blue-50 via-cyber-purple-50 to-hot-pink-50 pattern-dots overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight">
-                <span className="bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">
-                  Think. Build. Create.
+                <span className="gradient-text">
+                  Learn. Create. Innovate.
                 </span>
                 <br />
                 <span className="text-gray-800">
-                  The Next Generation of Indian Innovators
+                  The Next Generation of STEAM Leaders
                 </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Inspiring young minds through hands-on learning experiences that transform curiosity into innovation. 
-                Join thousands of students who are building the future of India, one project at a time.
+                Inspiring young minds through integrated STEAM education that combines Science, Technology, Engineering, Art, and Medicine. Join thousands of students who are creating innovative solutions for tomorrow's challenges.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/services" className="btn-primary text-center">
@@ -71,15 +70,15 @@ const Home: React.FC = () => {
               </div>
               <div className="flex items-center space-x-8 text-sm text-gray-600">
                 <div className="flex items-center space-x-2">
-                  <Users className="h-5 w-5 text-royal-blue-500" />
+                  <Users className="h-5 w-5 text-electric-blue-500" />
                   <span>5000+ Students</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <GraduationCap className="h-5 w-5 text-saffron-500" />
+                  <GraduationCap className="h-5 w-5 text-vibrant-orange-500" />
                   <span>200+ Schools</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Award className="h-5 w-5 text-emerald-india-500" />
+                  <Award className="h-5 w-5 text-lime-green-500" />
                   <span>50+ Projects</span>
                 </div>
               </div>
@@ -92,7 +91,7 @@ const Home: React.FC = () => {
                   className="rounded-2xl shadow-2xl"
                 />
               </div>
-              <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-royal-blue-200 to-saffron-200 rounded-2xl opacity-20"></div>
+              <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-electric-blue-200 via-cyber-purple-200 to-hot-pink-200 rounded-2xl opacity-30"></div>
             </div>
           </div>
         </div>
@@ -112,7 +111,7 @@ const Home: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-royal-blue-500 to-royal-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-electric-blue-500 to-cyber-purple-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <BookOpen className="h-10 w-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold font-display text-gray-800 mb-4">Learn</h3>
@@ -123,7 +122,7 @@ const Home: React.FC = () => {
             </div>
             
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-saffron-500 to-saffron-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-vibrant-orange-500 to-hot-pink-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <Wrench className="h-10 w-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold font-display text-gray-800 mb-4">Build</h3>
@@ -134,7 +133,7 @@ const Home: React.FC = () => {
             </div>
             
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-emerald-india-500 to-emerald-india-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-lime-green-500 to-neon-yellow-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <Lightbulb className="h-10 w-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold font-display text-gray-800 mb-4">Invent</h3>
@@ -175,15 +174,15 @@ const Home: React.FC = () => {
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-royal-blue-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
                   Age groups: 8-12, 13-15, 16-18 years
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-royal-blue-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
                   Weekend and holiday batches available
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-royal-blue-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
                   Project-based learning approach
                 </div>
               </div>
@@ -208,15 +207,15 @@ const Home: React.FC = () => {
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-saffron-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
                   Complete lab infrastructure setup
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-saffron-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
                   Comprehensive teacher training programs
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
-                  <div className="w-2 h-2 bg-saffron-500 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
                   Curriculum design and implementation
                 </div>
               </div>
@@ -257,11 +256,11 @@ const Home: React.FC = () => {
                 </div>
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-saffron-400 fill-current" />
+                    <Star key={i} className="h-4 w-4 text-neon-yellow-400 fill-current" />
                   ))}
                 </div>
                 <div className="relative">
-                  <Quote className="h-8 w-8 text-royal-blue-200 absolute -top-2 -left-2" />
+                  <Quote className="h-8 w-8 text-electric-blue-200 absolute -top-2 -left-2" />
                   <p className="text-gray-600 italic leading-relaxed pl-6">
                     {testimonial.content}
                   </p>
@@ -278,16 +277,16 @@ const Home: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold font-display text-white mb-6">
             Ready to Inspire the Next Generation?
           </h2>
-          <p className="text-xl text-royal-blue-100 mb-8 leading-relaxed">
+          <p className="text-xl text-electric-blue-100 mb-8 leading-relaxed">
             Join thousands of students and hundreds of schools who are already building the future. 
             Start your innovation journey today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="bg-white text-royal-blue-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+            <Link to="/contact" className="bg-white text-electric-blue-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
               Contact Us Today
               <ArrowRight className="ml-2 h-5 w-5 inline" />
             </Link>
-            <Link to="/services" className="border-2 border-white text-white hover:bg-white hover:text-royal-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
+            <Link to="/services" className="border-2 border-white text-white hover:bg-white hover:text-electric-blue-600 font-semibold py-3 px-8 rounded-lg transition-all duration-200">
               Explore Our Programs
             </Link>
           </div>

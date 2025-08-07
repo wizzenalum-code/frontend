@@ -21,14 +21,14 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-gradient-to-br from-royal-blue-500 to-saffron-500 p-2 rounded-lg">
+            <div className="bg-gradient-to-br from-electric-blue-500 to-hot-pink-500 p-2 rounded-lg shadow-lg">
               <Lightbulb className="h-8 w-8 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold font-display bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">
-                Inventors Hub
+              <h1 className="text-2xl font-bold font-display gradient-text">
+                STEAM Buds
               </h1>
-              <p className="text-xs text-gray-600 hidden sm:block">Inspiring Innovation</p>
+              <p className="text-xs text-gray-600 hidden sm:block">Science • Tech • Engineering • Art • Medicine</p>
             </div>
           </Link>
 
@@ -40,8 +40,8 @@ const Header: React.FC = () => {
                 to={link.to}
                 className={`font-medium transition-colors duration-200 ${
                   isActive(link.to)
-                    ? 'text-royal-blue-600 border-b-2 border-royal-blue-600'
-                    : 'text-gray-700 hover:text-royal-blue-600'
+                    ? 'text-electric-blue-600 border-b-2 border-electric-blue-600'
+                    : 'text-gray-700 hover:text-electric-blue-600'
                 }`}
               >
                 {link.label}
@@ -79,8 +79,8 @@ const Header: React.FC = () => {
                   to={link.to}
                   className={`font-medium transition-colors duration-200 ${
                     isActive(link.to)
-                      ? 'text-royal-blue-600'
-                      : 'text-gray-700 hover:text-royal-blue-600'
+                      ? 'text-electric-blue-600'
+                    : 'text-gray-700 hover:text-electric-blue-600'
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
