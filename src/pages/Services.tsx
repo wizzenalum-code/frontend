@@ -67,7 +67,7 @@ const Services: React.FC = () => {
       <section className="bg-gradient-to-br from-royal-blue-50 to-saffron-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold font-display text-gray-800 mb-6">
-            Our <span className="bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">Services</span>
+            Our <span className="gradient-text">Services</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Comprehensive integrated STEAM learning solutions for students and educational institutions across India
