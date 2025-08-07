@@ -261,28 +261,28 @@ const About: React.FC = () => {
           
           <div className="space-y-8 text-lg text-gray-600 leading-relaxed">
             <p>
-              Inventors Hub was born from a simple observation: traditional education methods weren't preparing 
-              Indian students for the rapidly evolving technological landscape. Our founder, Dr. Priya Sharma, 
-              noticed that while students could memorize complex formulas, they struggled to apply theoretical 
-              knowledge to solve real-world problems.
+              STEAM Buds was born from a simple observation: traditional education methods weren't preparing
+              Indian students for the rapidly evolving interdisciplinary landscape. Our founder, Dr. Priya Sharma,
+              noticed that while students excelled in individual subjects, they struggled to connect Science, Technology,
+              Engineering, Art, and Medicine to solve real-world problems.
             </p>
             
             <p>
-              After years of teaching at IIT and observing the gap between academic learning and practical 
-              application, she decided to create a learning environment where students could think, build, 
-              and create from day one. What started as weekend workshops in a small lab has now grown into 
-              a movement that's transforming education across India.
+              After years of teaching at IIT and observing the gap between academic learning and practical
+              application, she decided to create a learning environment where students could integrate STEAM subjects
+              from day one. What started as weekend workshops in a small lab has now grown into
+              a movement that's transforming interdisciplinary education across India.
             </p>
             
             <p>
-              Today, Inventors Hub is proud to be at the forefront of the hands-on learning revolution in India. 
-              We've helped thousands of students discover their potential, equipped hundreds of schools with 
-              innovation labs, and trained countless educators to inspire the next generation of Indian innovators.
+              Today, STEAM Buds is proud to be at the forefront of the integrated STEAM education revolution in India.
+              We've helped thousands of students discover their interdisciplinary potential, equipped hundreds of schools with
+              STEAM labs, and trained countless educators to inspire the next generation of Indian STEAM leaders.
             </p>
             
             <p>
-              Our journey is just beginning. As we look to the future, we remain committed to our mission of 
-              making quality hands-on education accessible to every Indian student, regardless of their background 
+              Our journey is just beginning. As we look to the future, we remain committed to our mission of
+              making quality integrated STEAM education accessible to every Indian student, regardless of their background
               or location.
             </p>
           </div>
