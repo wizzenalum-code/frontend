@@ -151,15 +151,15 @@ const Services: React.FC = () => {
                   <Building2 className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold font-display text-gray-800">Inspiring Innovation in Every School</h2>
-                  <p className="text-saffron-600 font-medium">Complete lab solutions for educational institutions</p>
+                  <h2 className="text-3xl font-bold font-display text-gray-800">Inspiring STEAM Education in Every School</h2>
+                  <p className="text-saffron-600 font-medium">Complete integrated STEAM lab solutions for educational institutions</p>
                 </div>
               </div>
               
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                We partner with schools to establish world-class innovation labs that transform traditional education. 
-                Our comprehensive approach includes infrastructure setup, curriculum development, teacher training, 
-                and ongoing support to ensure sustainable impact.
+                We partner with schools to establish world-class STEAM labs that transform traditional education through interdisciplinary learning.
+                Our comprehensive approach includes infrastructure setup, integrated curriculum development, teacher training,
+                and ongoing support to ensure sustainable STEAM education impact.
               </p>
 
               <div className="space-y-6 mb-8">
