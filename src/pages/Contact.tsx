@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "hello@inventorshub.in",
+      details: "hello@steambuds.in",
       subtitle: "We'll respond within 24 hours"
     },
     {
@@ -246,7 +246,7 @@ const Contact: React.FC = () => {
                 <h3 className="text-xl font-bold font-display text-gray-800 mb-6">Quick Actions</h3>
                 <div className="space-y-4">
                   <a 
-                    href="mailto:hello@inventorshub.in?subject=Student Classes Inquiry"
+                    href="mailto:hello@steambuds.in?subject=Student Classes Inquiry"
                     className="flex items-center p-4 bg-royal-blue-50 hover:bg-royal-blue-100 rounded-lg transition-colors group"
                   >
                     <div className="bg-royal-blue-500 w-10 h-10 rounded-lg flex items-center justify-center mr-3">
@@ -259,7 +259,7 @@ const Contact: React.FC = () => {
                   </a>
                   
                   <a 
-                    href="mailto:hello@inventorshub.in?subject=School Partnership Inquiry"
+                    href="mailto:hello@steambuds.in?subject=School Partnership Inquiry"
                     className="flex items-center p-4 bg-saffron-50 hover:bg-saffron-100 rounded-lg transition-colors group"
                   >
                     <div className="bg-saffron-500 w-10 h-10 rounded-lg flex items-center justify-center mr-3">
