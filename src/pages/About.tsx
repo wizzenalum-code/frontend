@@ -157,8 +157,8 @@ const About: React.FC = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {achievements.map((achievement, index) => (
               <div key={index} className="text-center">
-                <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
-                  <div className="text-3xl md:text-4xl font-bold font-display bg-gradient-to-r from-electric-blue-600 to-vibrant-orange-600 bg-clip-text text-transparent mb-2">
+                <div className="bg-gradient-to-br from-white to-electric-blue-50 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300 hover:scale-105 neon-border">
+                  <div className="text-3xl md:text-4xl font-bold font-display gradient-text mb-2 drop-shadow-lg">
                     {achievement.number}
                   </div>
                   <div className="text-gray-600 font-medium">{achievement.label}</div>
