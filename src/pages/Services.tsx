@@ -19,35 +19,35 @@ import {
 const Services: React.FC = () => {
   const studentClasses = [
     {
-      title: "Young Engineers (Ages 8-12)",
-      description: "Introduction to basic engineering concepts through fun, hands-on activities",
+      title: "STEAM Explorers (Ages 8-12)",
+      description: "Introduction to integrated STEAM concepts through fun, hands-on activities",
       duration: "2 hours/week",
-      features: ["Basic robotics", "Simple circuits", "3D design", "Creative problem solving"]
+      features: ["Basic robotics", "Art & design", "Simple circuits", "Science experiments"]
     },
     {
-      title: "Tech Innovators (Ages 13-15)",
-      description: "Advanced projects combining engineering, coding, and design thinking",
-      duration: "3 hours/week", 
-      features: ["Arduino programming", "Sensor integration", "App development", "Team projects"]
+      title: "STEAM Innovators (Ages 13-15)",
+      description: "Advanced interdisciplinary projects combining science, technology, art, and medicine",
+      duration: "3 hours/week",
+      features: ["Arduino programming", "Digital art", "Biomedical projects", "Team challenges"]
     },
     {
-      title: "Future Engineers (Ages 16-18)",
-      description: "Professional-level projects preparing students for engineering careers",
+      title: "STEAM Leaders (Ages 16-18)",
+      description: "Professional-level interdisciplinary projects preparing students for STEAM careers",
       duration: "4 hours/week",
-      features: ["Advanced robotics", "IoT projects", "AI/ML basics", "Industry mentorship"]
+      features: ["Advanced robotics", "Medical technology", "AI/ML applications", "Research projects"]
     }
   ];
 
   const schoolServices = [
     {
       icon: Building2,
-      title: "Lab Infrastructure Setup",
-      description: "Complete setup of innovation labs with cutting-edge equipment and safety protocols"
+      title: "STEAM Lab Infrastructure Setup",
+      description: "Complete setup of interdisciplinary STEAM labs with cutting-edge equipment for science, technology, engineering, art, and medicine"
     },
     {
       icon: BookOpen,
-      title: "Curriculum Development",
-      description: "Custom curriculum design aligned with educational standards and practical learning outcomes"
+      title: "STEAM Curriculum Development",
+      description: "Custom interdisciplinary curriculum design that integrates science, technology, engineering, art, and medicine with practical learning outcomes"
     },
     {
       icon: UserCheck,
