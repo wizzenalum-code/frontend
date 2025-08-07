@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       name: "Priya Sharma",
       role: "Parent",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b1e1?w=150&h=150&fit=crop&crop=face",
-      content: "My child's confidence in science has soared! The hands-on approach at Inventors Hub has transformed how she thinks about problem-solving.",
+      content: "My child's confidence in STEAM subjects has soared! The integrated approach at STEAM Buds has transformed how she thinks about problem-solving across disciplines.",
       rating: 5
     },
     {
@@ -49,16 +49,15 @@ const Home: React.FC = () => {
             <div className="space-y-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight">
                 <span className="bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">
-                  Think. Build. Create.
+                  Learn. Create. Innovate.
                 </span>
                 <br />
                 <span className="text-gray-800">
-                  The Next Generation of Indian Innovators
+                  The Next Generation of STEAM Leaders
                 </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Inspiring young minds through hands-on learning experiences that transform curiosity into innovation. 
-                Join thousands of students who are building the future of India, one project at a time.
+                Inspiring young minds through integrated STEAM education that combines Science, Technology, Engineering, Art, and Medicine. Join thousands of students who are creating innovative solutions for tomorrow's challenges.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/services" className="btn-primary text-center">
