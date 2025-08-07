@@ -2,6 +2,7 @@
   "name": "inventors-hub",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Hands-on learning company website for Indian innovators",
   "scripts": {
     "dev": "vite",
