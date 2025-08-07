@@ -111,7 +111,7 @@ const Home: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-royal-blue-500 to-royal-blue-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-electric-blue-500 to-cyber-purple-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <BookOpen className="h-10 w-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold font-display text-gray-800 mb-4">Learn</h3>
@@ -122,7 +122,7 @@ const Home: React.FC = () => {
             </div>
             
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-saffron-500 to-saffron-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-vibrant-orange-500 to-hot-pink-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <Wrench className="h-10 w-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold font-display text-gray-800 mb-4">Build</h3>
@@ -133,7 +133,7 @@ const Home: React.FC = () => {
             </div>
             
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-emerald-india-500 to-emerald-india-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="bg-gradient-to-br from-lime-green-500 to-neon-yellow-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <Lightbulb className="h-10 w-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold font-display text-gray-800 mb-4">Invent</h3>
