@@ -70,7 +70,7 @@ const Services: React.FC = () => {
             Our <span className="bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">Services</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Comprehensive hands-on learning solutions for students and educational institutions across India
+            Comprehensive integrated STEAM learning solutions for students and educational institutions across India
           </p>
         </div>
       </section>
@@ -87,14 +87,14 @@ const Services: React.FC = () => {
                   <GraduationCap className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold font-display text-gray-800">Hands-on Classes for Young Engineers</h2>
-                  <p className="text-royal-blue-600 font-medium">Inspiring the next generation of innovators</p>
+                  <h2 className="text-3xl font-bold font-display text-gray-800">Integrated STEAM Classes for Young Minds</h2>
+                  <p className="text-royal-blue-600 font-medium">Inspiring the next generation of STEAM leaders</p>
                 </div>
               </div>
               
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Our age-appropriate classes are designed to nurture curiosity, develop technical skills, and build confidence 
-                in young minds. Through project-based learning, students explore robotics, electronics, coding, and design thinking 
+                Our age-appropriate classes are designed to nurture curiosity, develop interdisciplinary skills, and build confidence
+                in young minds. Through project-based learning, students explore the connections between Science, Technology, Engineering, Art, and Medicine
                 in a supportive and engaging environment.
               </p>
 
