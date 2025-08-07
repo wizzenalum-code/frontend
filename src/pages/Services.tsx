@@ -224,10 +224,10 @@ const Services: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold font-display text-gray-800 mb-4">
-              Technology Focus Areas
+              STEAM Focus Areas
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our programs cover cutting-edge technologies that prepare students for the future
+              Our programs integrate Science, Technology, Engineering, Art, and Medicine to prepare students for the future
             </p>
           </div>
           
@@ -252,16 +252,16 @@ const Services: React.FC = () => {
               <div className="bg-gradient-to-br from-emerald-india-500 to-emerald-india-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <BookOpen className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">Programming & AI</h3>
-              <p className="text-sm text-gray-600">Python, JavaScript, machine learning, and app development</p>
+              <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">Digital Art & Programming</h3>
+              <p className="text-sm text-gray-600">Creative coding, digital design, AI applications, and interactive media</p>
             </div>
             
             <div className="text-center group">
               <div className="bg-gradient-to-br from-terracotta-500 to-terracotta-600 w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <Cog className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">3D Design & Printing</h3>
-              <p className="text-sm text-gray-600">CAD modeling, 3D printing, and digital fabrication</p>
+              <h3 className="text-lg font-semibold font-display text-gray-800 mb-2">Biomedical Innovation</h3>
+              <p className="text-sm text-gray-600">Medical device design, biotechnology, health tech, and life sciences</p>
             </div>
           </div>
         </div>
