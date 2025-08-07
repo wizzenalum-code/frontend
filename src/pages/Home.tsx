@@ -43,12 +43,12 @@ const Home: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-royal-blue-50 to-saffron-50 pattern-dots overflow-hidden">
+      <section className="relative bg-gradient-to-br from-electric-blue-50 via-cyber-purple-50 to-hot-pink-50 pattern-dots overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight">
-                <span className="bg-gradient-to-r from-royal-blue-600 to-saffron-600 bg-clip-text text-transparent">
+                <span className="gradient-text">
                   Learn. Create. Innovate.
                 </span>
                 <br />
@@ -70,15 +70,15 @@ const Home: React.FC = () => {
               </div>
               <div className="flex items-center space-x-8 text-sm text-gray-600">
                 <div className="flex items-center space-x-2">
-                  <Users className="h-5 w-5 text-royal-blue-500" />
+                  <Users className="h-5 w-5 text-electric-blue-500" />
                   <span>5000+ Students</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <GraduationCap className="h-5 w-5 text-saffron-500" />
+                  <GraduationCap className="h-5 w-5 text-vibrant-orange-500" />
                   <span>200+ Schools</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Award className="h-5 w-5 text-emerald-india-500" />
+                  <Award className="h-5 w-5 text-lime-green-500" />
                   <span>50+ Projects</span>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const Home: React.FC = () => {
                   className="rounded-2xl shadow-2xl"
                 />
               </div>
-              <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-royal-blue-200 to-saffron-200 rounded-2xl opacity-20"></div>
+              <div className="absolute -top-4 -left-4 w-full h-full bg-gradient-to-br from-electric-blue-200 via-cyber-purple-200 to-hot-pink-200 rounded-2xl opacity-30"></div>
             </div>
           </div>
         </div>
