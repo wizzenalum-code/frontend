@@ -1,5 +1,5 @@
 {
-  "name": "inventors-hub",
+  "name": "steam-buds",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -27,6 +27,6 @@
     "vite": "^4.3.9"
   },
   "keywords": ["education", "hands-on learning", "innovation", "india"],
-  "author": "Inventors Hub",
+  "author": "STEAM Buds",
   "license": "MIT"
 }
