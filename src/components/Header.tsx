@@ -21,7 +21,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-gradient-to-br from-electric-blue-500 to-hot-pink-500 p-2 rounded-lg shadow-lg">
+            <div className="bg-gradient-to-br from-electric-blue-400 via-cyber-purple-500 to-hot-pink-500 p-2 rounded-lg shadow-lg glow-effect">
               <Lightbulb className="h-8 w-8 text-white" />
             </div>
             <div>

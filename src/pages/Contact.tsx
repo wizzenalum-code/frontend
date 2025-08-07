@@ -130,7 +130,7 @@ const Contact: React.FC = () => {
                         name="inquiryType"
                         value={formData.inquiryType}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-400 focus:shadow-lg focus:shadow-electric-blue-200 focus:border-transparent transition-all duration-300 hover:border-cyber-purple-300"
                         required
                       >
                         {inquiryTypes.map((type) => (
@@ -154,7 +154,7 @@ const Contact: React.FC = () => {
                           value={formData.name}
                           onChange={handleInputChange}
                           placeholder="Your full name"
-                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors"
+                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-400 focus:shadow-lg focus:shadow-electric-blue-200 focus:border-transparent transition-all duration-300 hover:border-cyber-purple-300"
                           required
                         />
                       </div>
@@ -169,7 +169,7 @@ const Contact: React.FC = () => {
                           value={formData.email}
                           onChange={handleInputChange}
                           placeholder="your.email@example.com"
-                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors"
+                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-400 focus:shadow-lg focus:shadow-electric-blue-200 focus:border-transparent transition-all duration-300 hover:border-cyber-purple-300"
                           required
                         />
                       </div>
@@ -186,7 +186,7 @@ const Contact: React.FC = () => {
                         value={formData.subject}
                         onChange={handleInputChange}
                         placeholder="Brief subject of your inquiry"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-400 focus:shadow-lg focus:shadow-electric-blue-200 focus:border-transparent transition-all duration-300 hover:border-cyber-purple-300"
                         required
                       />
                     </div>
@@ -203,7 +203,7 @@ const Contact: React.FC = () => {
                         onChange={handleInputChange}
                         rows={6}
                         placeholder="Tell us more about your requirements, questions, or how we can help..."
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-500 focus:border-transparent transition-colors resize-none"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-electric-blue-400 focus:shadow-lg focus:shadow-electric-blue-200 focus:border-transparent transition-all duration-300 hover:border-cyber-purple-300 resize-none"
                         required
                       />
                     </div>
@@ -247,7 +247,7 @@ const Contact: React.FC = () => {
                 <div className="space-y-4">
                   <a 
                     href="mailto:hello@steambuds.in?subject=Student Classes Inquiry"
-                    className="flex items-center p-4 bg-electric-blue-50 hover:bg-electric-blue-100 rounded-lg transition-colors group"
+                    className="flex items-center p-4 bg-electric-blue-50 hover:bg-electric-blue-100 rounded-lg transition-all duration-300 hover:border-cyber-purple-300 group"
                   >
                     <div className="bg-electric-blue-500 w-10 h-10 rounded-lg flex items-center justify-center mr-3">
                       <GraduationCap className="h-5 w-5 text-white" />
@@ -260,7 +260,7 @@ const Contact: React.FC = () => {
                   
                   <a 
                     href="mailto:hello@steambuds.in?subject=School Partnership Inquiry"
-                    className="flex items-center p-4 bg-vibrant-orange-50 hover:bg-vibrant-orange-100 rounded-lg transition-colors group"
+                    className="flex items-center p-4 bg-vibrant-orange-50 hover:bg-vibrant-orange-100 rounded-lg transition-all duration-300 hover:border-cyber-purple-300 group"
                   >
                     <div className="bg-vibrant-orange-500 w-10 h-10 rounded-lg flex items-center justify-center mr-3">
                       <Building2 className="h-5 w-5 text-white" />
