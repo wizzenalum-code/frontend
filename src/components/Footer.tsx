@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
               <div className="bg-gradient-to-br from-royal-blue-500 to-saffron-500 p-2 rounded-lg">
                 <Lightbulb className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold font-display">Inventors Hub</h3>
+              <h3 className="text-xl font-bold font-display">STEAM Buds</h3>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Inspiring the next generation of Indian innovators through hands-on learning and practical education.
+Inspiring the next generation through integrated STEAM education - combining Science, Technology, Engineering, Art, and Medicine in hands-on learning experiences.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-saffron-400 transition-colors">
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-saffron-400" />
-                <span className="text-gray-300 text-sm">hello@inventorshub.in</span>
+                <span className="text-gray-300 text-sm">hello@steambuds.in</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-saffron-400" />
@@ -98,7 +98,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Inventors Hub. All rights reserved.
+              © 2024 STEAM Buds. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-saffron-400 text-sm transition-colors">
