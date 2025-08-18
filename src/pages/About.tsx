@@ -142,32 +142,6 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Achievements */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold font-display text-gray-800 mb-4">
-              Our Impact in Numbers
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Measurable results that showcase our commitment to transforming education
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="text-center">
-                <div className="bg-gradient-to-br from-white to-electric-blue-50 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300 hover:scale-105 neon-border">
-                  <div className="text-3xl md:text-4xl font-bold font-display gradient-text mb-2 drop-shadow-lg">
-                    {achievement.number}
-                  </div>
-                  <div className="text-gray-600 font-medium">{achievement.label}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Team Section */}
       <section className="py-20">
