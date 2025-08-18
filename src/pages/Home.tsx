@@ -190,35 +190,33 @@ const Home: React.FC = () => {
               </Link>
             </div>
 
-            {/* Labs for Schools */}
+            {/* Expert Teachers for Schools */}
             <div className="card group hover:bg-gradient-to-br hover:from-vibrant-orange-50 hover:to-hot-pink-100 transition-all duration-300">
               <div className="flex items-center mb-6">
                 <div className="bg-gradient-to-br from-vibrant-orange-400 to-hot-pink-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <Users className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold font-display text-gray-800">Labs for Schools</h3>
+                <h3 className="text-2xl font-bold font-display text-gray-800">Expert Teachers for Schools</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Complete lab setup and consulting services for educational institutions. We help schools 
-                establish innovation labs, provide curriculum development, teacher training, and ongoing 
-                support to empower students to build meaningful projects.
+                We provide expert teachers to schools who specialize in ATL labs and project making. Our educators teach students problem-solving skills, feasibility, social relevance, potential impact, novelty, and questioning through building innovative STEAM projects.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
-                  Complete lab infrastructure setup
+                  ATL lab specialists and project-making experts
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
-                  Comprehensive teacher training programs
+                  Focus on innovation and critical thinking
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
-                  Curriculum design and implementation
+                  Hands-on STEAM project development
                 </div>
               </div>
               <Link to="/services" className="btn-secondary">
-                Partner with Us
+                Get Expert Teachers
                 <ArrowRight className="ml-2 h-4 w-4 inline" />
               </Link>
             </div>
