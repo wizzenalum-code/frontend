@@ -17,25 +17,32 @@ import {
 const About: React.FC = () => {
   const teamMembers = [
     {
-      name: "Dr. Priya Sharma",
+      name: "Ghanshyam",
+      role: "Founder & CTO",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+      bio: "NIT graduate with over 8 years of professional software engineering experience. Leads technology strategy and development initiatives to create innovative educational solutions.",
+      expertise: ["Software Engineering", "Technology Strategy", "System Architecture"]
+    },
+    {
+      name: "Devesh Singh",
       role: "Founder & CEO",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b1e1?w=300&h=300&fit=crop&crop=face",
-      bio: "Former IIT professor with 15+ years in engineering education. Passionate about making learning hands-on and accessible.",
-      expertise: ["Educational Technology", "STEM Curriculum", "Innovation Labs"]
+      bio: "NIT graduate with 6+ years of experience in teaching robotics and science. Passionate about transforming education through hands-on learning methodologies.",
+      expertise: ["Robotics Education", "STEM Teaching", "Curriculum Design"]
     },
     {
-      name: "Rajesh Kumar",
-      role: "Head of Curriculum",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
-      bio: "Robotics engineer turned educator. Designs engaging project-based learning experiences for young innovators.",
-      expertise: ["Robotics", "Arduino Programming", "Project Design"]
+      name: "Sandeep Malhotra",
+      role: "Founder & Head of Project Management",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      bio: "NIT graduate with 8+ years in data engineering and a passion for practical knowledge application. Manages strategic projects and operational excellence.",
+      expertise: ["Data Engineering", "Project Management", "Practical Applications"]
     },
     {
-      name: "Aisha Patel",
-      role: "Lead Training Specialist",
+      name: "Govind Bajpai",
+      role: "Founder & Advisor",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
-      bio: "Expert in teacher training and pedagogy. Helps educators transform their teaching through hands-on methodologies.",
-      expertise: ["Teacher Training", "Educational Psychology", "Workshop Design"]
+      bio: "NIT graduate with 6+ years as an IBM scientist and expertise in hands-on activity development. Provides strategic guidance and mentorship to the team.",
+      expertise: ["Scientific Research", "IBM Technologies", "Activity Development"]
     }
   ];
 
@@ -155,7 +162,7 @@ const About: React.FC = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
               <div key={index} className="card text-center group hover:bg-gradient-to-br hover:from-gray-50 hover:to-gray-100">
                 <div className="relative mb-6">
