@@ -18,37 +18,52 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-gradient-to-r from-electric-blue-500 to-cyber-purple-500 hover:from-electric-blue-600 hover:to-cyber-purple-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105;
+    @apply bg-gradient-to-r from-electric-blue-400 via-cyber-purple-500 to-hot-pink-500 hover:from-electric-blue-300 hover:via-cyber-purple-400 hover:to-hot-pink-400 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-110 hover:shadow-cyber-purple-300;
   }
 
   .btn-secondary {
-    @apply bg-gradient-to-r from-vibrant-orange-500 to-hot-pink-500 hover:from-vibrant-orange-600 hover:to-hot-pink-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105;
+    @apply bg-gradient-to-r from-vibrant-orange-400 via-hot-pink-500 to-atomic-green-500 hover:from-vibrant-orange-300 hover:via-hot-pink-400 hover:to-atomic-green-400 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-110 hover:shadow-hot-pink-300;
   }
 
   .btn-outline {
-    @apply border-2 border-electric-blue-500 text-electric-blue-600 hover:bg-gradient-to-r hover:from-electric-blue-500 hover:to-cyber-purple-500 hover:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 hover:border-transparent;
+    @apply border-2 border-electric-blue-400 text-electric-blue-500 hover:bg-gradient-to-r hover:from-electric-blue-400 hover:via-cyber-purple-500 hover:to-hot-pink-500 hover:text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 hover:border-transparent hover:shadow-2xl hover:scale-110;
   }
 
   .card {
-    @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-6 hover:scale-105;
+    @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-6 hover:scale-105 hover:shadow-electric-blue-200 border hover:border-cyber-purple-200;
   }
 
   .pattern-dots {
-    background-image: radial-gradient(circle, rgba(14, 165, 233, 0.15) 2px, transparent 2px);
-    background-size: 25px 25px;
+    background-image: radial-gradient(circle, rgba(255, 26, 140, 0.2) 3px, transparent 3px),
+                      radial-gradient(circle, rgba(0, 153, 255, 0.15) 2px, transparent 2px);
+    background-size: 40px 40px, 25px 25px;
+    background-position: 0 0, 20px 20px;
   }
 
   .pattern-grid {
-    background-image: linear-gradient(rgba(14, 165, 233, 0.1) 1px, transparent 1px),
-                      linear-gradient(90deg, rgba(168, 85, 247, 0.1) 1px, transparent 1px);
-    background-size: 30px 30px;
+    background-image: linear-gradient(rgba(255, 26, 140, 0.15) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(140, 26, 255, 0.15) 1px, transparent 1px),
+                      linear-gradient(45deg, rgba(0, 255, 128, 0.05) 1px, transparent 1px);
+    background-size: 30px 30px, 30px 30px, 60px 60px;
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-electric-blue-600 via-cyber-purple-600 to-hot-pink-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-electric-blue-500 via-cyber-purple-500 via-hot-pink-500 to-atomic-green-500 bg-clip-text text-transparent;
+  }
+
+  .gradient-text-alt {
+    @apply bg-gradient-to-r from-neon-yellow-400 via-vibrant-orange-500 to-plasma-red-500 bg-clip-text text-transparent;
   }
 
   .card-hover-neon {
-    @apply hover:shadow-electric-blue-200 hover:shadow-2xl;
+    @apply hover:shadow-electric-blue-300 hover:shadow-2xl hover:bg-gradient-to-br hover:from-white hover:to-electric-blue-50;
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 20px rgba(255, 26, 140, 0.3), 0 0 40px rgba(140, 26, 255, 0.2);
+  }
+
+  .neon-border {
+    @apply border-2 border-hot-pink-400 shadow-lg shadow-hot-pink-200;
   }
 }

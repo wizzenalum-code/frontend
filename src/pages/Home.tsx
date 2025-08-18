@@ -47,7 +47,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight drop-shadow-lg">
                 <span className="gradient-text">
                   Learn. Create. Innovate.
                 </span>
@@ -71,15 +71,15 @@ const Home: React.FC = () => {
               <div className="flex items-center space-x-8 text-sm text-gray-600">
                 <div className="flex items-center space-x-2">
                   <Users className="h-5 w-5 text-electric-blue-500" />
-                  <span>5000+ Students</span>
+                  <span>500+ Students</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <GraduationCap className="h-5 w-5 text-vibrant-orange-500" />
-                  <span>200+ Schools</span>
+                  <span>2+ Schools</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Award className="h-5 w-5 text-lime-green-500" />
-                  <span>50+ Projects</span>
+                  <span>5+ Projects</span>
                 </div>
               </div>
             </div>
@@ -154,73 +154,69 @@ const Home: React.FC = () => {
               Our Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive solutions for students and educational institutions
+              Expert teachers for schools and direct offline workshops for students
             </p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Classes for Students */}
-            <div className="card group hover:bg-gradient-to-br hover:from-royal-blue-50 hover:to-royal-blue-100 transition-all duration-300">
+            {/* Direct Student Workshops */}
+            <div className="card group hover:bg-gradient-to-br hover:from-electric-blue-50 hover:to-cyber-purple-100 transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-br from-royal-blue-500 to-royal-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                <div className="bg-gradient-to-br from-electric-blue-400 to-cyber-purple-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <GraduationCap className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold font-display text-gray-800">Classes for Students</h3>
+                <h3 className="text-2xl font-bold font-display text-gray-800">Direct Student Workshops</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Interactive workshops and courses for students aged 8-18. From robotics and electronics to 
-                3D printing and coding, our classes inspire creativity and build technical skills through 
-                hands-on projects and real-world applications.
+                Offline workshops for students who want to learn directly from our expert educators. We develop problem-solving skills, feasibility analysis, social relevance, potential impact, novelty, and questioning abilities through hands-on STEAM projects.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
-                  Age groups: 8-12, 13-15, 16-18 years
+                  Problem-solving & critical thinking skills
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
-                  Weekend and holiday batches available
+                  Feasibility and social relevance analysis
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
-                  Project-based learning approach
+                  Science, Arts, Technology, Medicine, Engineering projects
                 </div>
               </div>
               <Link to="/services" className="btn-primary">
-                View Class Schedule
+                Join Workshops
                 <ArrowRight className="ml-2 h-4 w-4 inline" />
               </Link>
             </div>
 
-            {/* Labs for Schools */}
-            <div className="card group hover:bg-gradient-to-br hover:from-saffron-50 hover:to-saffron-100 transition-all duration-300">
+            {/* Expert Teachers for Schools */}
+            <div className="card group hover:bg-gradient-to-br hover:from-vibrant-orange-50 hover:to-hot-pink-100 transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-br from-saffron-500 to-saffron-600 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                <div className="bg-gradient-to-br from-vibrant-orange-400 to-hot-pink-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <Users className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold font-display text-gray-800">Labs for Schools</h3>
+                <h3 className="text-2xl font-bold font-display text-gray-800">Expert Teachers for Schools</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Complete lab setup and consulting services for educational institutions. We help schools 
-                establish innovation labs, provide curriculum development, teacher training, and ongoing 
-                support to empower students to build meaningful projects.
+                We provide expert teachers to schools who specialize in ATL labs and project making. Our educators teach students problem-solving skills, feasibility, social relevance, potential impact, novelty, and questioning through building innovative STEAM projects.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
-                  Complete lab infrastructure setup
+                  ATL lab specialists and project-making experts
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
-                  Comprehensive teacher training programs
+                  Focus on innovation and critical thinking
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-vibrant-orange-500 rounded-full mr-3"></div>
-                  Curriculum design and implementation
+                  Hands-on STEAM project development
                 </div>
               </div>
               <Link to="/services" className="btn-secondary">
-                Partner with Us
+                Get Expert Teachers
                 <ArrowRight className="ml-2 h-4 w-4 inline" />
               </Link>
             </div>
@@ -272,7 +268,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-royal-blue-600 to-saffron-600 pattern-grid">
+      <section className="py-20 bg-gradient-to-br from-electric-blue-400 via-cyber-purple-500 via-hot-pink-500 to-atomic-green-500 pattern-grid">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold font-display text-white mb-6">
             Ready to Inspire the Next Generation?

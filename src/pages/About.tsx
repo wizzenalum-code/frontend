@@ -17,25 +17,32 @@ import {
 const About: React.FC = () => {
   const teamMembers = [
     {
-      name: "Dr. Priya Sharma",
+      name: "Ghanshyam",
+      role: "Founder & CTO",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+      bio: "NIT graduate with over 8 years of professional software engineering experience. Leads technology strategy and development initiatives to create innovative educational solutions.",
+      expertise: ["Software Engineering", "Technology Strategy", "System Architecture"]
+    },
+    {
+      name: "Devesh Singh",
       role: "Founder & CEO",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b1e1?w=300&h=300&fit=crop&crop=face",
-      bio: "Former IIT professor with 15+ years in engineering education. Passionate about making learning hands-on and accessible.",
-      expertise: ["Educational Technology", "STEM Curriculum", "Innovation Labs"]
+      bio: "NIT graduate with 6+ years of experience in teaching robotics and science. Passionate about transforming education through hands-on learning methodologies.",
+      expertise: ["Robotics Education", "STEM Teaching", "Curriculum Design"]
     },
     {
-      name: "Rajesh Kumar",
-      role: "Head of Curriculum",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
-      bio: "Robotics engineer turned educator. Designs engaging project-based learning experiences for young innovators.",
-      expertise: ["Robotics", "Arduino Programming", "Project Design"]
+      name: "Sandeep Malhotra",
+      role: "Founder & Head of Project Management",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      bio: "NIT graduate with 8+ years in data engineering and a passion for practical knowledge application. Manages strategic projects and operational excellence.",
+      expertise: ["Data Engineering", "Project Management", "Practical Applications"]
     },
     {
-      name: "Aisha Patel",
-      role: "Lead Training Specialist",
+      name: "Govind Bajpai",
+      role: "Founder & Advisor",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
-      bio: "Expert in teacher training and pedagogy. Helps educators transform their teaching through hands-on methodologies.",
-      expertise: ["Teacher Training", "Educational Psychology", "Workshop Design"]
+      bio: "NIT graduate with 6+ years as an IBM scientist and expertise in hands-on activity development. Provides strategic guidance and mentorship to the team.",
+      expertise: ["Scientific Research", "IBM Technologies", "Activity Development"]
     }
   ];
 
@@ -142,32 +149,6 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Achievements */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold font-display text-gray-800 mb-4">
-              Our Impact in Numbers
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Measurable results that showcase our commitment to transforming education
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="text-center">
-                <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
-                  <div className="text-3xl md:text-4xl font-bold font-display bg-gradient-to-r from-electric-blue-600 to-vibrant-orange-600 bg-clip-text text-transparent mb-2">
-                    {achievement.number}
-                  </div>
-                  <div className="text-gray-600 font-medium">{achievement.label}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Team Section */}
       <section className="py-20">
@@ -181,7 +162,7 @@ const About: React.FC = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
               <div key={index} className="card text-center group hover:bg-gradient-to-br hover:from-gray-50 hover:to-gray-100">
                 <div className="relative mb-6">
@@ -261,29 +242,30 @@ const About: React.FC = () => {
           
           <div className="space-y-8 text-lg text-gray-600 leading-relaxed">
             <p>
-              STEAM Buds was born from a simple observation: traditional education methods weren't preparing
-              Indian students for the rapidly evolving interdisciplinary landscape. Our founder, Dr. Priya Sharma,
-              noticed that while students excelled in individual subjects, they struggled to connect Science, Technology,
-              Engineering, Art, and Medicine to solve real-world problems.
+              Our journey began during our college days at NIT, where Devesh and Ghanshyam first collaborated to set up a
+              small laboratory for their own learning and experimentation. What started as a personal project quickly evolved
+              into something much bigger—a vibrant innovation hub that attracted passionate NITians from across the campus.
             </p>
-            
+
             <p>
-              After years of teaching at IIT and observing the gap between academic learning and practical
-              application, she decided to create a learning environment where students could integrate STEAM subjects
-              from day one. What started as weekend workshops in a small lab has now grown into
-              a movement that's transforming interdisciplinary education across India.
+              As our college lab grew, many talented students joined us, but Sandeep and Govind truly embodied our shared
+              passion for building innovative products and solutions. Together, our team participated in numerous national-level
+              innovation challenges, earning recognition and winning several prestigious competitions that validated our
+              approach to hands-on, practical learning.
             </p>
-            
+
             <p>
-              Today, STEAM Buds is proud to be at the forefront of the integrated STEAM education revolution in India.
-              We've helped thousands of students discover their interdisciplinary potential, equipped hundreds of schools with
-              STEAM labs, and trained countless educators to inspire the next generation of Indian STEAM leaders.
+              After graduation, life took us in different directions as we pursued our individual careers—Ghanshyam in software
+              engineering, Devesh in education, Sandeep in data engineering, and Govind in scientific research at IBM. However,
+              our commitment to student development never wavered. Sandeep and Govind launched workshop programs in their
+              respective fields, while Devesh and Ghanshyam worked on creating a universal learning platform.
             </p>
-            
+
             <p>
-              Our journey is just beginning. As we look to the future, we remain committed to our mission of
-              making quality integrated STEAM education accessible to every Indian student, regardless of their background
-              or location.
+              Though we maintained awareness of each other's endeavors over the years, it wasn't until recently that we realized
+              the power of combining our diverse expertise and shared vision. The convergence of our individual experiences in
+              education, technology, and innovation naturally led to the birth of STEAM Buds—a platform where our collective
+              passion for transforming education could finally flourish and impact students across India.
             </p>
           </div>
         </div>

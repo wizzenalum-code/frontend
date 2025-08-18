@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-gradient-to-br from-royal-blue-500 to-saffron-500 p-2 rounded-lg">
+              <div className="bg-gradient-to-br from-electric-blue-400 via-cyber-purple-500 to-hot-pink-500 p-2 rounded-lg shadow-lg glow-effect">
                 <Lightbulb className="h-6 w-6 text-white" />
               </div>
               <h3 className="text-xl font-bold font-display">STEAM Buds</h3>
