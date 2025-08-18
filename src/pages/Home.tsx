@@ -71,15 +71,15 @@ const Home: React.FC = () => {
               <div className="flex items-center space-x-8 text-sm text-gray-600">
                 <div className="flex items-center space-x-2">
                   <Users className="h-5 w-5 text-electric-blue-500" />
-                  <span>5000+ Students</span>
+                  <span>500+ Students</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <GraduationCap className="h-5 w-5 text-vibrant-orange-500" />
-                  <span>200+ Schools</span>
+                  <span>2+ Schools</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Award className="h-5 w-5 text-lime-green-500" />
-                  <span>50+ Projects</span>
+                  <span>5+ Projects</span>
                 </div>
               </div>
             </div>
