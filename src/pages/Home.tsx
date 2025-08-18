@@ -168,9 +168,8 @@ const Home: React.FC = () => {
                 <h3 className="text-2xl font-bold font-display text-gray-800">Classes for Students</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Interactive workshops and courses for students aged 8-18. From robotics and electronics to 
-                3D printing and coding, our classes inspire creativity and build technical skills through 
-                hands-on projects and real-world applications.
+                Interactive workshops and courses for students aged 8-18. To learn engineering, 3D printing and coding , our
+                classes inspire creativity and build technical skills through hands-on projects and real-world applications.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
