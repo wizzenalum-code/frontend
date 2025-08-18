@@ -154,39 +154,38 @@ const Home: React.FC = () => {
               Our Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive solutions for students and educational institutions
+              Expert teachers for schools and direct offline workshops for students
             </p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Classes for Students */}
+            {/* Direct Student Workshops */}
             <div className="card group hover:bg-gradient-to-br hover:from-electric-blue-50 hover:to-cyber-purple-100 transition-all duration-300">
               <div className="flex items-center mb-6">
                 <div className="bg-gradient-to-br from-electric-blue-400 to-cyber-purple-500 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                   <GraduationCap className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold font-display text-gray-800">Classes for Students</h3>
+                <h3 className="text-2xl font-bold font-display text-gray-800">Direct Student Workshops</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Interactive workshops and courses for students aged 8-18. To learn engineering, 3D printing and coding , our
-                classes inspire creativity and build technical skills through hands-on projects and real-world applications.
+                Offline workshops for students who want to learn directly from our expert educators. We develop problem-solving skills, feasibility analysis, social relevance, potential impact, novelty, and questioning abilities through hands-on STEAM projects.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
-                  Age groups: 8-12, 13-15, 16-18 years
+                  Problem-solving & critical thinking skills
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
-                  Weekend and holiday batches available
+                  Feasibility and social relevance analysis
                 </div>
                 <div className="flex items-center text-sm text-gray-700">
                   <div className="w-2 h-2 bg-electric-blue-500 rounded-full mr-3"></div>
-                  Project-based learning approach
+                  Science, Arts, Technology, Medicine, Engineering projects
                 </div>
               </div>
               <Link to="/services" className="btn-primary">
-                View Class Schedule
+                Join Workshops
                 <ArrowRight className="ml-2 h-4 w-4 inline" />
               </Link>
             </div>
