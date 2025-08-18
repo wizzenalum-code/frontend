@@ -242,29 +242,30 @@ const About: React.FC = () => {
           
           <div className="space-y-8 text-lg text-gray-600 leading-relaxed">
             <p>
-              STEAM Buds was born from a simple observation: traditional education methods weren't preparing
-              Indian students for the rapidly evolving interdisciplinary landscape. Our founder, Dr. Priya Sharma,
-              noticed that while students excelled in individual subjects, they struggled to connect Science, Technology,
-              Engineering, Art, and Medicine to solve real-world problems.
+              Our journey began during our college days at NIT, where Devesh and Ghanshyam first collaborated to set up a
+              small laboratory for their own learning and experimentation. What started as a personal project quickly evolved
+              into something much bigger—a vibrant innovation hub that attracted passionate NITians from across the campus.
             </p>
-            
+
             <p>
-              After years of teaching at IIT and observing the gap between academic learning and practical
-              application, she decided to create a learning environment where students could integrate STEAM subjects
-              from day one. What started as weekend workshops in a small lab has now grown into
-              a movement that's transforming interdisciplinary education across India.
+              As our college lab grew, many talented students joined us, but Sandeep and Govind truly embodied our shared
+              passion for building innovative products and solutions. Together, our team participated in numerous national-level
+              innovation challenges, earning recognition and winning several prestigious competitions that validated our
+              approach to hands-on, practical learning.
             </p>
-            
+
             <p>
-              Today, STEAM Buds is proud to be at the forefront of the integrated STEAM education revolution in India.
-              We've helped thousands of students discover their interdisciplinary potential, equipped hundreds of schools with
-              STEAM labs, and trained countless educators to inspire the next generation of Indian STEAM leaders.
+              After graduation, life took us in different directions as we pursued our individual careers—Ghanshyam in software
+              engineering, Devesh in education, Sandeep in data engineering, and Govind in scientific research at IBM. However,
+              our commitment to student development never wavered. Sandeep and Govind launched workshop programs in their
+              respective fields, while Devesh and Ghanshyam worked on creating a universal learning platform.
             </p>
-            
+
             <p>
-              Our journey is just beginning. As we look to the future, we remain committed to our mission of
-              making quality integrated STEAM education accessible to every Indian student, regardless of their background
-              or location.
+              Though we maintained awareness of each other's endeavors over the years, it wasn't until recently that we realized
+              the power of combining our diverse expertise and shared vision. The convergence of our individual experiences in
+              education, technology, and innovation naturally led to the birth of STEAM Buds—a platform where our collective
+              passion for transforming education could finally flourish and impact students across India.
             </p>
           </div>
         </div>
