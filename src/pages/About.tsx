@@ -5,42 +5,44 @@ import {
   Eye, 
   Heart, 
   Users, 
-  Award, 
   BookOpen, 
   Lightbulb, 
   ArrowRight,
   Mail,
   Linkedin,
-  Globe
 } from 'lucide-react';
+import ghanshyamImg from '../images/ghanshyam.jpeg';
+import deveshImg from '../images/devesh.png';
+import sandeepImg from '../images/sandeep.png';
+import govindImg from '../images/govind.png';
 
 const About: React.FC = () => {
   const teamMembers = [
     {
       name: "Ghanshyam",
       role: "Founder & CTO",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+      image: ghanshyamImg,
       bio: "NIT graduate with over 8 years of professional software engineering experience. Leads technology strategy and development initiatives to create innovative educational solutions.",
       expertise: ["Software Engineering", "Technology Strategy", "System Architecture"]
     },
     {
       name: "Devesh Singh",
       role: "Founder & CEO",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b1e1?w=300&h=300&fit=crop&crop=face",
+      image: deveshImg,
       bio: "NIT graduate with 6+ years of experience in teaching robotics and science. Passionate about transforming education through hands-on learning methodologies.",
       expertise: ["Robotics Education", "STEM Teaching", "Curriculum Design"]
     },
     {
       name: "Sandeep Malhotra",
       role: "Founder & Head of Project Management",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      image: sandeepImg,
       bio: "NIT graduate with 8+ years in data engineering and a passion for practical knowledge application. Manages strategic projects and operational excellence.",
       expertise: ["Data Engineering", "Project Management", "Practical Applications"]
     },
     {
       name: "Govind Bajpai",
       role: "Founder & Advisor",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
+      image: govindImg,
       bio: "NIT graduate with 6+ years as an IBM scientist and expertise in hands-on activity development. Provides strategic guidance and mentorship to the team.",
       expertise: ["Scientific Research", "IBM Technologies", "Activity Development"]
     }
@@ -69,12 +71,12 @@ const About: React.FC = () => {
     }
   ];
 
-  const achievements = [
-    { number: "5000+", label: "Students Impacted" },
-    { number: "200+", label: "Schools Partnered" },
-    { number: "50+", label: "Innovation Labs Setup" },
-    { number: "95%", label: "Student Satisfaction" }
-  ];
+  // const achievements = [
+  //   { number: "5000+", label: "Students Impacted" },
+  //   { number: "200+", label: "Schools Partnered" },
+  //   { number: "50+", label: "Innovation Labs Setup" },
+  //   { number: "95%", label: "Student Satisfaction" }
+  // ];
 
   return (
     <div className="bg-white">
@@ -231,6 +233,8 @@ const About: React.FC = () => {
         </div>
       </section>
 
+      {/* TODO: Achievements */}
+      
       {/* Story Section */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -270,7 +274,7 @@ const About: React.FC = () => {
           </div>
         </div>
       </section>
-
+          
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-electric-blue-600 to-vibrant-orange-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">

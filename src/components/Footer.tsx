@@ -65,7 +65,7 @@ Inspiring the next generation through integrated STEAM education - combining Sci
           <div>
             <h4 className="text-lg font-semibold font-display mb-4">Our Services</h4>
             <ul className="space-y-2">
-              <li className="text-gray-300 text-sm">Classes for Students</li>
+              <li className="text-gray-300 text-sm">Private Classes for Students</li>
               <li className="text-gray-300 text-sm">School Lab Setup</li>
               <li className="text-gray-300 text-sm">Teacher Training</li>
               <li className="text-gray-300 text-sm">Curriculum Development</li>
@@ -82,13 +82,13 @@ Inspiring the next generation through integrated STEAM education - combining Sci
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-neon-yellow-400" />
-                <span className="text-gray-300 text-sm">+91 98765 43210</span>
+                <span className="text-gray-300 text-sm">+91 8777001129</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-neon-yellow-400 mt-0.5" />
                 <span className="text-gray-300 text-sm">
-                  123 Innovation Street<br />
-                  Tech City, Bangalore, KA 560001
+                  1/23, old rajendra nagar<br />
+                  Delhi, 110060
                 </span>
               </div>
             </div>
